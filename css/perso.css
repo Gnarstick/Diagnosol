@@ -1,0 +1,194 @@
+html { height: 100% }
+
+/*-----------------------------------Header-----------------------------------*/
+#logoCALSIMEOL{
+    padding: 4px 20px 4px 5px;
+}
+/*----------------------------------------------------------------------------*/
+
+
+/*Homepage*/
+#bigLogoCALSIMEOL{
+    margin: auto;
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+/*layout text*/
+.text {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  .text {
+    font-size: 18px;
+  }
+}
+
+/*background for all pages*/
+.clearness {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+
+.opacity{
+    opacity: 0.5;
+}
+
+/*button help and delete line*/
+.pop, .cross{
+    margin-top: 6px;
+    color: #666666; 
+}
+.pop:hover, .pop:focus, .cross:hover, .cross:focus {
+    color:black;
+}
+
+/*Popover decimal warning*/
+.decimalWarning{
+    font-style: italic;
+    font-size: 13px;
+    color: #820000;    
+}
+
+/*-----------------------------------Margins----------------------------------*/
+.marginLR{
+    margin: 0px 15px;
+}
+.-marginLR{
+    margin: 0px -15px;
+}
+/*----------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------Footer-----------------------------------*/
+#logoECE{
+    margin: auto;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+}
+#copyright   {
+   color: whitesmoke;
+   background-color: rgba(0, 0, 0, 0.5);
+   border-radius: 4px;
+}
+/*----------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------Feedback icons-----------------------------------*/
+.error {
+    display: none;
+}
+.good {
+    display: none;
+}
+/*----------------------------------------------------------------------------*/
+
+#tab1{
+    display: none;
+}
+
+#tab2{
+    display: none;
+}
+
+#tab3{
+    display: none;
+}
+
+#tab4{
+    display: none;
+}
+
+#tab5{
+    display: none;
+}
+
+#tab6{
+    display: none;
+}
+
+#tab7{
+	display: none;
+}
+
+#tab8{
+	display: none;
+}
+
+/*-------------------------modification bootstrap.css-------------------------*/
+body{
+    background: url("../img/background.jpg") no-repeat top fixed;
+    background-size: cover;
+    padding-top: 50px;
+}
+.lead {
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  .lead {
+    font-size: 21px;
+  }
+}
+.panel-body {
+  padding: 0px 15px 15px 15px;
+}
+.panel-heading {
+  padding: 6px 15px;
+  }
+ .popover{
+      background-color: #F6F7FE;
+  }
+ .popover-title{
+      background-color: #E4E6F1;
+  }
+.table {
+  margin-top: 10px;
+}
+.table th {
+   text-align: center;   
+}
+.modal-footer {
+  margin-top: 20px;
+  display: block;
+  border-top: 0px;
+}
+
+.form-horizontal .has-feedback .form-control-feedback.shift {
+  right: 30px;
+}
+.form-horizontal .has-feedback .form-control-feedback.shift2 {
+  right: 35px;
+}
+.form-horizontal .has-feedback .form-control-feedback.shift3 {
+  right: 38px;
+}
+.form-horizontal .has-feedback .form-control-feedback.shift4 {
+  right: 44px;
+}
+.form-horizontal .has-feedback .form-control-feedback.shift5 {
+  right: 46px;
+}
+.table{
+    margin-bottom: 10px;
+}
+.table th{
+    background-color: #f5f5f5;
+}
+.table-striped > tbody > tr {
+  background-color: #ffffff;
+}
+
+.table td{
+    text-align: center;
+}
+/*----------------------------------------------------------------------------*/
+
